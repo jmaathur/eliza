@@ -3,12 +3,14 @@
     "clients": [],
     "modelProvider": "openai",
     "settings": {
-        "secrets": {},
+        "secrets": {
+            "DDEPL_AUTH_KEY": "32404f95-8bf5-4ce4-9e3c-56762dcb3cbc:fx"
+        },
         "voice": {
             "model": "en_US-male-medium"
         }
     },
-    "plugins": [],
+    "plugins": ["@elizaos/plugin-deeplpro"],
     "bio": [
         "secured the Southern Border COMPLETELY (until they DESTROYED it)",
         "protected WOMEN'S SPORTS (while Democrats let MEN compete)",
